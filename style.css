@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.speech{
+    background:linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(IMG-20240717-WA0170.jpg) ;
+
+}
+.speach2{
+    padding: 2px;
+    font-family:  Helvetica;
+    font-weight: 200;
+    text-align: center;
+}
+H1{
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+    padding: 5px;
+}
+h2{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family:'Lucida Sans', 'Lucida Sans Regular';
+}
+h3{
+    text-transform: uppercase;
+    color: grey;
+    font-weight: bold;
+    font-size: 20px;
+}
+h4{
+    font-weight: bolder;
+    font-size: 30px;
+    text-transform:capitalize ;
+}
+hr{
+    margin: 5px;
+}
+.school-badge{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-top: 5px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+  text-align: center;
+  background-color:maroon;
+  justify-content: space-around;
+}
+.legends{
+ height: 555px;
+ width: 400px;
+ background-color: white;
+ margin: 5px;
+ border: 5px ;
+ border-radius: 5px;
+}
+span{
+    color: red;
+}
+img{
+    height: 200px;
+    margin-top: 5px;
+    border: solid 5px white;
+}
+.grid-container{
+    display: grid;
+    gap: 10px;
+    grid-template-rows:1fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: grey;
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+    font-family: Georgia;
+    padding: 3px;
+}
+.grid-item{
+    background-color: white;
+}
+.nile{
+    background-color: blue;
+}
+.niger{
+    background-color: green;
+}
+.senegal{
+    background-color: purple;
+}
+.congo{
+    background-color: yellow;
+    color: black;
+
+}
+.volta{
+    background-color: pink;
+    color: black;
+}
+.limpopo{
+    background-color: brown;
+
+}
+.zambezi{
+    background-color: red;
+    grid-column: span 3;
+}
+li{
+    list-style: none;
+}
+.grid-container2{
+    display: grid;
+    gap: 10px;
+    grid-template-rows:1fr 2fr ;
+    grid-template-columns: 1fr 1fr ;
+    background-color: white;
+    margin: 5px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight:bold;
+    color: maroon;
+    text-align: center;
+}
+@media (max-width: 1000px ){
+    .legends{
+     width: 100%;
+     height: 100%;
+    }
+    .grid-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    
+}
